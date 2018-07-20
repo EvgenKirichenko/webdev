@@ -466,7 +466,7 @@ $('.slider-nav').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor: '.slider-for',
-  dots: false,
+  dots: true,
   centerMode: false,
   focusOnSelect: true,
   vertical: true,
