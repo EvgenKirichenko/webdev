@@ -460,7 +460,8 @@ $(document).ready(function(){
   slidesToScroll: 1,
   arrows: false,
   vertical: true,
-  asNavFor: '.slider-nav'
+  asNavFor: '.slider-nav',
+  verticalSwiping: true,
 });
 $('.slider-nav').slick({
   slidesToShow: 1,
@@ -471,6 +472,7 @@ $('.slider-nav').slick({
   focusOnSelect: true,
   vertical: true,
   arrows: false,
+  verticalSwiping: true,
 });
 	});
 //----------------gMaps---------------//
